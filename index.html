@@ -3,6 +3,10 @@
 <head>
   <meta charset="UTF-8">
   <title>Mod Studio</title>
+  <!-- <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Bitter:ital,wght@0,100..900;1,100..900&family=Playfair+Display:ital,wght@0,400..900;1,400..900&family=Roboto:ital,wght@0,100..900;1,100..900&display=swap" rel="stylesheet"> -->
+  <link rel="stylesheet" href="./css/style.css">
 </head>
 <body>
 
@@ -20,7 +24,6 @@
     <a href="#testimonials">Testimonials</a>
     <a href="#strong-points">Strong points</a>
     <img src="img/contact-icon.svg" alt="contact icon"/>
-    
   </nav>
 </header>
  <main>
@@ -31,10 +34,9 @@
   <figure>
     <img src="img/background.jpg" alt="background">
   </figure>
-
   <p>
     <h2>Mod Studio</h2>
-    <p>Modern Web Studio</p>
+    <p class="sub_title">Modern Web Studio</p>
   </p>
 </section>
 
@@ -42,20 +44,16 @@
 <!-- BIOGRAPHY -->
 <!-- ===================================== -->
 <section id="biography">
-  <h2 class="visually-hidden">Biography</h2>
-
-  <aside>
-    <h3>Biography</h3>
-  </aside>
+  <h3>Biography</h3>
 
   <figure>
     <img src="img/biography-photo.jpg" alt="Katya Mills portrait on the beach">
   </figure>
 
   <article>
-    <h3>Katya Mills</h3>
+    <h2>Katya Mills</h2>
 
-    <p>
+    <p class="about">
       Art Director<br>
       Scenography / Styling / Creative Photography / Design
     </p>
@@ -70,16 +68,16 @@
 <!-- DESIGNERS -->
 <!-- ===================================== -->
 <section id="designers">
-  <h2>Designers</h2>
+  <h3>Designers</h3>
 
   <article>
     <figure>
       <img src="img/designer-1.jpg" alt="Portrait of Jess Wonder">
     </figure>
-    <h3>Jess Wonder</h3>
+    <h4>Jess Wonder</h4>
     <p>
-      From/ Be more flower<br>
-      Skills/ Design Strategy / Marketing
+      <span class="bold">From/</span> Be more flower<br>
+      <span class="bold">Skills/</span> Design Strategy / Marketing
     </p>
   </article>
 
@@ -87,10 +85,10 @@
     <figure>
       <img src="img/designer-2.jpg" alt="Photography of Karrisson Callu">
     </figure>
-    <h3>Kameron Clein</h3>
+    <h4>Kameron Clein</h4>
     <p>
-From/ Be more flower<br>
-Skills/ Design Strategy / Marketing
+      <span class="bold">From/</span> Be more flower<br>
+      <span class="bold">Skills/</span> Design Strategy / Marketing
     </p>
   </article>
 
@@ -98,11 +96,10 @@ Skills/ Design Strategy / Marketing
     <figure>
       <img src="img/designer-3.jpg" alt="Designer working with fabric">
     </figure>
-    <h3>Louisse Red</h3>
+    <h4>Louisse Red</h4>
     <p>
-      
-From/ more flower<br>
-Skills/  Strategy / Marketing
+      <span class="bold">Skills/</span> more flower<br>
+      <span class="bold">Skills/</span>  Strategy / Marketing
     </p>
   </article>
 
@@ -110,11 +107,10 @@ Skills/  Strategy / Marketing
     <figure>
       <img src="img/designer-4.jpg" alt="Designer working with fabric">
     </figure>
-    <h3>Kameron Clein</h3>
+    <h4>Kameron Clein</h4>
     <p>
-From/  more flower<br>
-Skills/  Strategy / Marketing
-
+      <span class="bold">Skills/</span>  more flower<br>
+      <span class="bold">Skills/</span>  Strategy / Marketing
     </p>
   </article>
 </section>
@@ -122,8 +118,7 @@ Skills/  Strategy / Marketing
 <!-- ===================================== -->
 <!-- TESTIMONIALS -->
 <!-- ===================================== -->
-<section id="testimonials">
-
+<section id="testimonials" class="bold">
   <figure>
     <figcaption>
         <p>Website<br></p>
@@ -142,7 +137,7 @@ Skills/  Strategy / Marketing
   </figure>
     <h3>Testimonials</h3>
   <figure>
-    <blockquote>
+    <blockquote class="testimonials_text">
     I just really want to do good work and work with some great people,
     people who challange me.
   </blockquote>
@@ -155,7 +150,7 @@ Skills/  Strategy / Marketing
 <!-- STRONG POINTS -->
 <!-- ===================================== -->
 <section id="strong-points">
-  <h2>Strong points</h2>
+  <h3>Strong points</h3>
 
   <figure>
     <img src="img/strength-1.jpg" alt="Interior photo">
@@ -170,7 +165,7 @@ Skills/  Strategy / Marketing
   </figure>
 
   <article>
-    <h3>Strengths</h3>
+    <h2>Strengths</h2>
     <ul>
         <li>Interiors</li>
         <li>Outdoors</li>
@@ -196,11 +191,10 @@ Skills/  Strategy / Marketing
 <footer>
   <address>
     <a href="tel:12343452342">+1 234 345-2342</a>
-    <a href="mailto:info@modstudio.com">info@modstudio.COM</a>
-    <p></p>
+    <a href="mailto:info@modstudio.com" class="mail">info@modstudio.com</a>
   </address>
 
-  <p>A product of <strong>MOD</strong></p>
+  <p class="footer_logo">A product of <span>mod</span></p>
 
   <p>© 2022 Mod Media, All rights reserved</p>
 </footer>
@@ -212,7 +206,7 @@ Skills/  Strategy / Marketing
 <section id="contact-modal" role="dialog" aria-modal="true" aria-labelledby="modal-title">
   <article>
     <header>
-      <h2 id="modal-title">Get in touch</h2>
+      <h3 id="modal-title">Get in touch</h3>
     </header>
 
     <p>
@@ -235,6 +229,5 @@ Skills/  Strategy / Marketing
     </form>
   </article>
 </section>
-
 </body>
 </html>
