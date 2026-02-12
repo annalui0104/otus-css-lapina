@@ -152,8 +152,11 @@
   display: flex;
   align-items: center;
   justify-content: center;
-  background-color: #e6e0d8;      /* вместо картинки */
   padding: 135px 375px; 
+  background-image: url("../img/background.jpg");
+  background-size: cover;      
+  background-position: center; 
+  background-repeat: no-repeat;
 }
 
 .hero_media {
