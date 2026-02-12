@@ -4,6 +4,7 @@
     font-family: 'Roboto', sans-serif;
     font-size: 16px;
     line-height: 1;
+    margin: 0;
 }
 
 .list_item {
@@ -27,10 +28,6 @@
 .title_h3 {
     font-size: 24px;
     font-weight: 700;
-}
-
-.hero_subtitle {
-    font-size: 20px;
 }
 
 .nav_link{
@@ -107,4 +104,81 @@
 .button {
     font-family: inherit;
     font-size: 18px;
+}
+
+.site_header {
+  display: flex;
+  align-items: center;
+  justify-content: space-between; 
+  padding: 0 20px;            
+  background: #fff;
+  border-bottom: 1px solid #e6e6e6;
+}
+
+.site_title_h1 {
+  margin: 0;
+  padding: 16px 0;       
+  line-height: 1;
+}
+
+.site_nav {
+  display: flex;
+  align-items: center;
+  gap: 55px;        
+}
+
+.nav_link {
+  font-family: 'Roboto', serif; 
+  font-size: 24px;               
+  font-weight: 500;
+  color: inherit;
+  text-decoration: none;
+  line-height: 1;
+}
+
+.nav_link:hover,
+.nav_link:focus-visible {
+  text-decoration: underline;
+  text-underline-offset: 6px;
+}
+
+.nav_icon {
+  display: block;
+  width: 50px;
+  height: 50px;
+}
+
+.hero {             
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding: 135px 375px; 
+  background-image: url("../img/background.jpg");
+  background-size: cover;      
+  background-position: center; 
+  background-repeat: no-repeat;
+}
+
+.hero_media {
+  display: none;
+}
+
+.hero_content {
+  background: #fff;
+  padding: 110px 60px;              
+  text-align: center;
+  margin: 0;
+  width: 690px;
+}
+
+.title_h2 {
+  margin: 0;
+  line-height: 1.1;
+}
+
+.hero_subtitle {
+  margin: 14px 0 0;
+  font-size: 20px;
+  font-weight: 500;
+  line-height: 1.2;
 }
